@@ -1,0 +1,46 @@
+.singlepoke {
+    width: 400px;
+    height: 500px;
+    border-radius: 1rem; 
+    border: 3px solid rgba(255, 255, 255, 0.287);
+    margin: 0 auto;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+h5 {
+    position: absolute;
+    bottom: 10px;
+}
+
+.singlepoke img {
+    margin: 0;
+    display: block;
+    width: 65%;
+    height: auto;
+}
+
+h2 {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 1rem;
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    background: rgb(255,129,204);
+    background: linear-gradient(45deg, rgba(255,129,204,1) 18%, rgba(0,247,242,1) 99%);
+    color: white;
+    text-transform: uppercase;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 1rem;
+    margin-left: 47%;
+    margin-top: 1rem;
+}

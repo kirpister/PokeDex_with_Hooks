@@ -1,0 +1,16 @@
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a {
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    letter-spacing: 2px;
+    margin-right: 2rem;
+}
+
+.nav a:active {
+    color: pink;
+}
